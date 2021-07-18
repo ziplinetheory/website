@@ -1,8 +1,25 @@
 import Image from 'next/image'
 import Popup from 'reactjs-popup'
 import 'reactjs-popup/dist/index.css'
+import { useState } from 'react'
 
 const Home = () => {
+	const [email, setEmail] = useState('')
+
+	const addEmail = async (e: any) => {
+		e.preventDefault()
+
+		try {
+			//   const stuff = await createContact(email)
+			//   console.log(await stuff.json())
+			//sucess popup
+		} catch (e) {
+			console.error(e)
+			//error popup
+		}
+
+		console.log('added!')
+	}
 	return (
 		<div className="main-box">
 			<div>
