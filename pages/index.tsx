@@ -12,10 +12,11 @@ const Home = () => {
 					<br /> professional mentorship, and transformative experiences!
 				</p>
 				<Popup
+					className="mail-popup"
 					trigger={<button className="mail-button"> Join Mailing List! </button>}
 					modal
 				>
-					<form>
+					<form className="mail-form">
 						<input
 							id="email"
 							type="text"
@@ -23,6 +24,7 @@ const Home = () => {
 							placeholder="Email"
 							required
 						/>
+						<br></br>
 						<button type="submit">Join</button>
 					</form>
 				</Popup>
