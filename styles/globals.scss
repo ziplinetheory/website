@@ -66,3 +66,12 @@ a {
 		cursor: pointer;
 	}
 }
+
+$breakpoint-mobile: 480px;
+@media (max-width: $breakpoint-mobile) {
+	.main-box {
+		.message {
+			font-size: 15px;
+		}
+	}
+}
