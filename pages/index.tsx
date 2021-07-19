@@ -25,7 +25,7 @@ const Home = () => {
 	return (
 		<div className="main-box">
 			<div>
-				<Image src="/logo2.png" alt="Site Icon" width={1191.6} height={241.8} />
+				<Image className="logo" src="/logo2.png" alt="Site Icon" width={1191.6} height={241.8} />
 				<p className="message">
 					Exposing a community of young learners to non-traditional domains,
 					<br /> professional mentorship, and transformative experiences!
