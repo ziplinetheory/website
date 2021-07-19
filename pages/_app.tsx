@@ -1,8 +1,13 @@
 import '../styles/globals.scss'
+import Meta from '../components/Meta'
 
 import type { AppProps } from 'next/app'
 
-function MyApp({ Component, pageProps }: AppProps) {
-	return <Component {...pageProps} />
-}
-export default MyApp
+const App: React.FC<AppProps> = ({ Component, pageProps }) => (
+	<>
+		<Meta />
+		<Component {...pageProps} />
+	</>
+)
+
+export default App

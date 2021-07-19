@@ -23,12 +23,18 @@ const Home = () => {
 	return (
 		<div className="main-box">
 			<div>
-				<Image className="logo" src="/logo2.png" alt="Site Icon" width={1191.6} height={241.8} />
+				<Image
+					className="logo"
+					src="/logo2.png"
+					alt="Site Icon"
+					width={1191.6}
+					height={241.8}
+				/>
 				<p className="message">
 					Exposing a community of young learners to non-traditional domains,
-					<br /> professional mentorship, and transformative experiences!
+					<br /> professional mentorship, and transformative experiences.
 				</p>
-				<Popup
+				{/* <Popup
 					trigger={<button className="mail-button"> Join Mailing List! </button>}
 					className="mail-popup"
 					modal
@@ -44,7 +50,10 @@ const Home = () => {
 						<br></br>
 						<button type="submit">Join</button>
 					</form>
-				</Popup>
+				</Popup> */}
+				<a target="_blank" href="https://forms.gle/mDMNmMfS5EBmq3We8">
+					<button className="mail-button">Join Mailing List!</button>
+				</a>
 			</div>
 		</div>
 	)
