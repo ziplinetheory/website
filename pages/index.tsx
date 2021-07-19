@@ -51,7 +51,7 @@ const Home = () => {
 						<button type="submit">Join</button>
 					</form>
 				</Popup> */}
-				<a target="_blank" href="https://forms.gle/mDMNmMfS5EBmq3We8">
+				<a rel="noreferrer" target="_blank" href="https://forms.gle/mDMNmMfS5EBmq3We8">
 					<button className="mail-button">Join Mailing List!</button>
 				</a>
 			</div>
