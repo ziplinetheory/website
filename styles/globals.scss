@@ -44,7 +44,7 @@ a {
 
 	.message {
 		margin-top: 0;
-		padding-top: 0px;
+		padding-top: 60px;
 		color: white;
 		font-size: 25px;
 		font-weight: 400;
@@ -63,8 +63,16 @@ a {
 	}
 
 	.mail-button:hover {
-		background-color: rgba($color: $blue, $alpha: 1.0);
+		background-color: rgba($color: $blue, $alpha: 1);
 		cursor: pointer;
+	}
+
+	.social-icons-div {
+		margin-top: 20px;
+	}
+
+	.social-icons {
+		color: white;
 	}
 }
 
@@ -114,6 +122,7 @@ $breakpoint-mobile: 480px;
 	.main-box {
 		.message {
 			font-size: 15px !important;
+			padding-top: 150px !important;
 		}
 
 		.mail-button {

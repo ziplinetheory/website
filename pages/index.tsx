@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Popup from 'reactjs-popup'
 import 'reactjs-popup/dist/index.css'
 import { useState } from 'react'
+import Icon from 'supercons'
 
 const Home = () => {
 	const [email, setEmail] = useState('')
@@ -54,6 +55,21 @@ const Home = () => {
 				<a rel="noreferrer" target="_blank" href="https://forms.gle/mDMNmMfS5EBmq3We8">
 					<button className="mail-button">Join Mailing List!</button>
 				</a>
+				<br />
+				<div className="social-icons-div">
+					<a className="" href="mailto:ziplinetheory@gmail.com" target="_blank">
+						<Icon className="social-icons" glyph="email" size={55} />
+					</a>{' '}
+					<a className="" href="https://github.com/ziplinetheory" target="_blank">
+						<Icon className="social-icons" glyph="github" size={55} />
+					</a>{' '}
+					<a className="" href="https://instagram.com/ziplinetheory" target="_blank">
+						<Icon className="social-icons" glyph="instagram" size={55} />
+					</a>{' '}
+					<a className="" href="https://twitter.com/ziplinetheory" target="_blank">
+						<Icon className="social-icons" glyph="twitter" size={55} />
+					</a>
+				</div>
 			</div>
 		</div>
 	)
