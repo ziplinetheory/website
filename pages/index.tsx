@@ -1,27 +1,25 @@
 import Image from 'next/image'
 import Popup from 'reactjs-popup'
-import { createContact } from '../lib/email'
 import 'reactjs-popup/dist/index.css'
 import { useState } from 'react'
 
 const Home = () => {
-  const [email, setEmail] = useState('')
+	const [email, setEmail] = useState('')
 
-  const addEmail = async (e: any) => {
-    e.preventDefault()
+	const addEmail = async (e: any) => {
+		e.preventDefault()
 
-    try {
-      const stuff = await createContact(email)
-      console.log(await stuff.json())
-      //sucess popup
-    } catch (e) {
-      console.error(e)
-      //error popup
-    }
+		try {
+			//   const stuff = await createContact(email)
+			//   console.log(await stuff.json())
+			//sucess popup
+		} catch (e) {
+			console.error(e)
+			//error popup
+		}
 
-    console.log('added!')
-  }
-
+		console.log('added!')
+	}
 	return (
 		<div className="main-box">
 			<div>
@@ -32,19 +30,18 @@ const Home = () => {
 				</p>
 				<Popup
 					trigger={<button className="mail-button"> Join Mailing List! </button>}
-          className="mail-popup"
+					className="mail-popup"
 					modal
 				>
-					<form onSubmit={e => addEmail(e)} className="mail-form">
+					<form className="mail-form">
 						<input
 							id="email"
 							type="text"
 							autoComplete="name"
 							placeholder="Email"
-              onChange={e => setEmail(e.currentTarget.value)}
 							required
 						/>
-            <br></br>
+						<br></br>
 						<button type="submit">Join</button>
 					</form>
 				</Popup>
