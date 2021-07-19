@@ -58,16 +58,16 @@ const Home = () => {
 				</a>
 				<br />
 				<div className="social-icons-div">
-					<a className="" href="mailto:ziplinetheory@gmail.com" target="_blank">
+					<a rel="noreferrer" className="" href="mailto:ziplinetheory@gmail.com" target="_blank">
 						<Icon className="social-icons" glyph="email" size={55} />
 					</a>{' '}
-					<a className="" href="https://github.com/ziplinetheory" target="_blank">
+					<a rel="noreferrer" className="" href="https://github.com/ziplinetheory" target="_blank">
 						<Icon className="social-icons" glyph="github" size={55} />
 					</a>{' '}
-					<a className="" href="https://instagram.com/ziplinetheory" target="_blank">
+					<a rel="noreferrer" className="" href="https://instagram.com/ziplinetheory" target="_blank">
 						<Icon className="social-icons" glyph="instagram" size={55} />
 					</a>{' '}
-					<a className="" href="https://twitter.com/ziplinetheory" target="_blank">
+					<a rel="noreferrer" className="" href="https://twitter.com/ziplinetheory" target="_blank">
 						<Icon className="social-icons" glyph="twitter" size={55} />
 					</a>
 				</div>
