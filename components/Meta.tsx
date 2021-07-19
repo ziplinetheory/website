@@ -82,6 +82,12 @@ const Meta = () => {
 			<meta name="viewport" content="width=device-width,initial-scale=1" />
 			<meta name="theme-color" content="#9035eb" />
 			<link rel="canonical" href="https://ziplinetheory.com" />
+			<script
+				async
+				defer
+				data-website-id="a119a0ff-0419-4589-8717-597e86874f68"
+				src="https://analytics.aadit.dev/umami.js"
+			></script>
 		</Head>
 	)
 }
