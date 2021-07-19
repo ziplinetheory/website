@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Popup from 'reactjs-popup'
 import 'reactjs-popup/dist/index.css'
 import { useState } from 'react'
+//@ts-ignore
 import Icon from 'supercons'
 
 const Home = () => {

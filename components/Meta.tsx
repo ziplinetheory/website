@@ -85,7 +85,7 @@ const Meta = () => {
 			<script
 				async
 				defer
-				data-website-id="a119a0ff-0419-4589-8717-597e86874f68"
+				data-website-id="9f75405d-6feb-4575-8134-8e1e2e4f4368"
 				src="https://analytics.aadit.dev/umami.js"
 			></script>
 		</Head>
