@@ -3,10 +3,30 @@ $purple: #9035eb;
 $yellow: #ffdd20;
 $green: #58e8a2;
 
-.nav {
+.navbox {
     width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav {
+    width: 70%;
     height: 90px;
+    margin-top: 10px;
     background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlogodiv {
+    img {
+        width: 90px;
+    }
+}
+
+.navlinks {
+    margin-right: 20px;
 
     ul {
         display: inline;
@@ -23,13 +43,13 @@ $green: #58e8a2;
 
     a {
         display: block;
-        padding: 15px;
+        margin: 0 0 0 20px;
         color: $blue;
         text-decoration: none;
         font-weight: bold;
         font-size: 30px;
     }
-    
+
     a:hover {
         color: $purple;
     }
