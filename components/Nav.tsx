@@ -1,28 +1,22 @@
 import style from '../styles/Nav.module.scss'
-import Image from 'next/image'
 
 const Nav = () => {
 	return (
 		<div className={style.navbox}>
 			<div className={style.nav}>
-				<div className={style.navlogodiv}>
-					<a href="/">
-						<img src="/short_logo_whitebg.PNG" />
-					</a>
-				</div>
 				<div className={style.navlinks}>
 					<ul>
 						<li>
-							<a href="https://google.com">MISSION</a>
+							<a className={style.navlinkactive} href="/">HOME</a>
 						</li>
 						<li>
-							<a href="https://google.com">EVENTS</a>
+							<a href="/">TEAM</a>
 						</li>
 						<li>
-							<a href="https://google.com">IMPACT</a>
+							<a href="/">EVENTS</a>
 						</li>
 						<li>
-							<a href="https://google.com">DONATE</a>
+							<a href="/">DONATE</a>
 						</li>
 					</ul>
 				</div>

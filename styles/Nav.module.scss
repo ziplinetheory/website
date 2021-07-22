@@ -15,7 +15,7 @@ $green: #58e8a2;
     margin-top: 10px;
     background-color: white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -54,7 +54,7 @@ $green: #58e8a2;
         color: $purple;
     }
 
-    a:active {
+    .navlinkactive {
         color: $purple;
     }
 }
