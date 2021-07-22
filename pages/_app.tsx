@@ -1,4 +1,4 @@
-import '../styles/globals.scss'
+import '../styles/global.scss'
 import Meta from '../components/Meta'
 
 import type { AppProps } from 'next/app'
