@@ -86,6 +86,7 @@ const Meta = () => {
 				async
 				defer
 				data-website-id="9f75405d-6feb-4575-8134-8e1e2e4f4368"
+				data-domains="ziplinetheory.com"
 				src="https://analytics.aadit.dev/umami.js"
 			></script>
 		</Head>
