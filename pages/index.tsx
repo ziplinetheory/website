@@ -1,7 +1,13 @@
 import Nav from '../components/Nav'
+import Hero from '../components/Hero'
 
 const Home = () => {
-	return <Nav />
+	return (
+		<>
+		<Nav/>
+		<Hero/>
+		</>
+	)
 }
 
 export default Home
