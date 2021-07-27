@@ -4,8 +4,8 @@ import Hero from '../components/Hero'
 const Home = () => {
 	return (
 		<>
-		<Nav/>
-		<Hero/>
+			<Nav />
+			<Hero />
 		</>
 	)
 }

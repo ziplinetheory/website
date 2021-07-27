@@ -7,7 +7,9 @@ const Nav = () => {
 				<div className={style.navlinks}>
 					<ul>
 						<li>
-							<a className={style.navlinkactive} href="/">Home</a>
+							<a className={style.navlinkactive} href="/">
+								Home
+							</a>
 						</li>
 						<li>
 							<a href="/">Team</a>
