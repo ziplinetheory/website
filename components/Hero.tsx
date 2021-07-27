@@ -9,11 +9,17 @@ const Hero = () => {
 					<p>
 						Connecting students to{' '}
 						<span className={style.color}>
-							new
+							new fields of study
+						</span>
+					.</p>
+					{/* <p>
+						Connecting students to{' '}
+						<span className={style.color}>
+							transformative
 							<br /> experiences
 						</span>{' '}
-						and <span className={style.color}>impactful fields</span>
-					</p>
+						and <span className={style.color}>new fields of study</span>
+					.</p> */}
 					<button>Learn More</button>
 				</div>
 				<div className={style.rightbox}>
