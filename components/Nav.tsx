@@ -4,7 +4,9 @@ const Nav = () => {
 	return (
 		<div className={style.navbox}>
 			{/* put logo here */}
-			<img className={style.navlogo} src="./short_logo_whitebg.PNG" alt="zipline logo" />
+			<a href="/">
+				<img className={style.navlogo} src="./short_logo_whitebg.PNG" alt="zipline logo" />
+			</a>
 			<div className={style.nav}>
 				<div className={style.navlinks}>
 					<ul>

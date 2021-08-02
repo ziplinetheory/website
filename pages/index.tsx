@@ -7,7 +7,7 @@ const Home = () => {
 		<>
 			<Zipline />
 			<Nav />
-			{/* <Hero /> */}
+			<Hero />
 		</>
 	)
 }
