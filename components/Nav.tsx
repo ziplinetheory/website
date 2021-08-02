@@ -3,16 +3,15 @@ import style from '../styles/Nav.module.scss'
 const Nav = () => {
 	return (
 		<div className={style.navbox}>
+			{/* put logo here */}
+			<img className={style.navlogo} src="./short_logo_whitebg.PNG" alt="zipline logo" />
 			<div className={style.nav}>
 				<div className={style.navlinks}>
 					<ul>
 						<li>
-							<a className={style.navlinkactive} href="/">
-								Home
+							<a href="/">
+								Team
 							</a>
-						</li>
-						<li>
-							<a href="/">Team</a>
 						</li>
 						<li>
 							<a href="/">Events</a>
