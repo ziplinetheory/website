@@ -72,13 +72,26 @@ $red: #ff726f;
 	}
 
 	.leftbox {
+		transform: rotate(15deg);
+		position: absolute;
+		z-index: -99999999999999999999999999999999999999999999999999999999999999999;
+		top: 32vh;
+		left: 0%;
+
 		img {
-			position: absolute;
-			z-index: -99999999999999999999999999999999999999999999999999999999999999999;
 			width: 50vh;
-			top: 43%;
-			left: 10%;
-			transform: rotate(15deg);
+			animation: ziplineyay 4s;
+			animation-fill-mode: forwards;
+		}
+
+		@keyframes ziplineyay {
+			from {
+				transform: translate(0, 0);
+			}
+
+			to {
+				transform: translate(40vh, 7.8vh);
+			}
 		}
 	}
 }
