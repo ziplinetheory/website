@@ -80,8 +80,9 @@ $red: #ff726f;
 
 		img {
 			width: 50vh;
-			animation: ziplineyay 4s;
+			animation: ziplineyay 3s;
 			animation-fill-mode: forwards;
+			animation-timing-function: cubic-bezier(0.29, 0.04, 0.25, 0.99);
 		}
 
 		@keyframes ziplineyay {
