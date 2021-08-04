@@ -37,7 +37,7 @@ $red: #ff726f;
 			font-size: 25px;
 			transition: 0.3s;
 		}
-		
+
 		button:hover {
 			background-color: $blue;
 			transition: 0.3s;
@@ -73,7 +73,12 @@ $red: #ff726f;
 
 	.leftbox {
 		img {
-			width: 600px;
+			position: absolute;
+			z-index: -99999999999999999999999999999999999999999999999999999999999999999;
+			width: 50vh;
+			top: 43%;
+			left: 10%;
+			transform: rotate(15deg);
 		}
 	}
 }
