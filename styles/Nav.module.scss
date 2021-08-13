@@ -102,3 +102,15 @@ $green: #58e8a2;
 		transition: 0.3s;
 	}
 }
+
+@media only screen and (max-width: 1400px) {
+	.navlogosmall {
+		width: 50px !important;
+		height: 50px !important;
+	}
+
+	.navlogolarge {
+		width: 167px !important;
+		height: 27px !important;
+	}
+}
