@@ -23,7 +23,7 @@ const Nav = () => {
 				<div className={style.navlinks}>
 					<ul>
 						<li>
-							<a href="/" className={style.active}>Home</a>
+							<a href="/" className={style.navlinkactive}>Home</a>
 						</li>
 						<li>
 							<a href="/">Team</a>
