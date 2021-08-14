@@ -11,7 +11,7 @@ $red: #ff726f;
 	align-items: center;
 
 	.splitboxes {
-		width: 73%;
+		width: 1200px;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
@@ -20,7 +20,7 @@ $red: #ff726f;
 
 	.leftbox {
 		h1 {
-			font-size: 110px;
+			font-size: 80px;
 			font-weight: normal;
 			margin: 0;
 
@@ -30,7 +30,7 @@ $red: #ff726f;
 		}
 
 		p {
-			font-size: 32px;
+			font-size: 25px;
 
 			span {
 				color: $blue;
@@ -39,9 +39,9 @@ $red: #ff726f;
 		}
 
 		button:nth-child(odd) {
-			width: 234px;
-			height: 60px;
-			font-size: 20px;
+			width: 180px;
+			height: 46px;
+			font-size: 15px;
 			font-weight: bold;
 			color: white;
 			background: $purple;
@@ -60,9 +60,9 @@ $red: #ff726f;
 		}
 
 		button:nth-child(even) {
-			width: 234px;
-			height: 60px;
-			font-size: 20px;
+			width: 180px;
+			height: 46px;
+			font-size: 15px;
 			font-weight: bold;
 			color: $purple;
 			border: 3px solid $purple;
@@ -84,7 +84,11 @@ $red: #ff726f;
 
 	.rightbox {
 		img {
-			width: 730px;
+			width: 700px;
 		}
 	}
+}
+
+@media only screen and (max-width: 1400px) { 
+
 }

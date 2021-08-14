@@ -6,7 +6,7 @@ const Hero = () => {
 			<div className={style.splitboxes}>
 				<div className={style.leftbox}>
 					<h1>
-						<span>Ziplining</span> Towards a Better Future
+						<span>Ziplining</span><br/> Towards a<br/> Better Future
 					</h1>
 					<p>
 						We connect students to <span>technology</span>
