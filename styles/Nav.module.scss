@@ -111,6 +111,7 @@ $green: #58e8a2;
 		font-weight: bold;
 		font-size: 24px;
 		transition: 0.3s;
+		box-shadow: 12px 6px 30px -1px $purple;
 	}
 
 	button:hover {
@@ -118,6 +119,7 @@ $green: #58e8a2;
 		transition: 0.3s;
 		cursor: pointer;
 		transition: 0.3s;
+		box-shadow: 12px 6px 30px -1px $blue;
 	}
 }
 
