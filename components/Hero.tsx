@@ -20,7 +20,7 @@ const Hero = () => {
 					<img
 						className={style.navlogosmall}
 						src="./mountains.gif"
-						alt="zipline logo"
+						alt="mountains"
 					/>
 				</div>
 			</div>
