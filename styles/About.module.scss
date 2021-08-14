@@ -6,6 +6,8 @@ $red: #ff726f;
 
 .mainbox {
 	width: 100%;
+    margin-top: 110px;
+    margin-bottom: 110px;
 	display: flex;
 	justify-content: center;
 
@@ -29,10 +31,12 @@ $red: #ff726f;
 
 		img {
 			width: 1200px;
+            margin-top: 80px;
 		}
 
 		.theory {
 			margin: 0 auto;
+            margin-top: 80px;
 			display: flex;
 			justify-content: center;
 			width: 918px;
