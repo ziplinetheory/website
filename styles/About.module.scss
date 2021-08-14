@@ -6,10 +6,16 @@ $red: #ff726f;
 
 .mainbox {
 	width: 100%;
-    margin-top: 110px;
-    margin-bottom: 110px;
+	margin-top: 110px;
+	margin-bottom: 110px;
 	display: flex;
 	justify-content: center;
+
+	.aboutbackground {
+		position: absolute;
+		width: 1550px;
+		transform: translateY(-80px);
+	}
 
 	.content {
 		width: 1200px;
@@ -24,25 +30,32 @@ $red: #ff726f;
 			text-decoration-thickness: 3px;
 			text-underline-offset: 20px;
 
-            span {
-                color: white;
-            }
+			span {
+				color: white;
+			}
 		}
 
 		img {
 			width: 1200px;
-            margin-top: 80px;
+			margin-top: 100px;
 		}
 
 		.theory {
 			margin: 0 auto;
-            margin-top: 80px;
+			margin-top: 90px;
+			overflow: visible;
 			display: flex;
 			justify-content: center;
 			width: 918px;
 			height: 178px;
 			box-shadow: 0px 8px 50px rgba(7, 209, 111, 0.15);
 			border-radius: 0px 25px;
+
+			.aboutmessagebackground {
+				position: absolute;
+				margin: 0;
+				width: 918px;
+			}
 
 			p {
 				font-size: 40px;
