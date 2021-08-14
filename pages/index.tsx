@@ -1,12 +1,13 @@
 import Nav from '../components/Nav'
-import Zipline from '../components/Zipline'
 import Hero from '../components/Hero'
+import About from '../components/About'
 
 const Home = () => {
 	return (
 		<>
 			<Nav />
 			<Hero />
+			<About />
 		</>
 	)
 }
