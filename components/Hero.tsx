@@ -19,7 +19,7 @@ const Hero = () => {
 				<div className={style.rightbox}>
 					<img
 						className={style.navlogosmall}
-						src="./mountains.png"
+						src="./mountains.gif"
 						alt="zipline logo"
 					/>
 				</div>
