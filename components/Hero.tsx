@@ -1,7 +1,7 @@
 import style from '../styles/Hero.module.scss'
 
 const scrollDown = () => {
-	window.location = '#about'
+	document.getElementById('about')?.scrollIntoView()
 }
 
 const Hero = () => {
