@@ -11,7 +11,7 @@ const Hero = () => {
 					<p>
 						We connect students to <span>technology</span>
 						<br />
-						and <span>business</span> mentorship.
+						and <span>business</span> knowledge.
 					</p>
 					<button>Upcoming Events</button>
 					<button>Learn More</button>
