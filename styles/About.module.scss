@@ -15,6 +15,7 @@ $red: #ff726f;
 		position: absolute;
 		width: 1550px;
 		transform: translateY(-80px);
+		z-index: -9999;
 	}
 
 	.content {
@@ -55,6 +56,7 @@ $red: #ff726f;
 				position: absolute;
 				margin: 0;
 				width: 918px;
+				z-index: -9999;
 			}
 
 			p {
