@@ -1,5 +1,9 @@
 import style from '../styles/Hero.module.scss'
 
+const scrollDown = () => {
+	window.location = '#about'
+}
+
 const Hero = () => {
 	return (
 		<div className={style.mainbox}>
@@ -14,7 +18,7 @@ const Hero = () => {
 						and <span>business</span> knowledge.
 					</p>
 					<button>Upcoming Events</button>
-					<button>Learn More</button>
+					<button onClick={scrollDown}>Learn More</button>
 				</div>
 				<div className={style.rightbox}>
 					<img

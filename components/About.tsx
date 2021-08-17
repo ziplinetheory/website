@@ -2,7 +2,7 @@ import style from '../styles/About.module.scss'
 
 const About = () => {
 	return (
-		<div className={style.mainbox}>
+		<div id="about" className={style.mainbox}>
 			<img
 				className={style.aboutbackground}
 				src="./aboutbackground.png"
