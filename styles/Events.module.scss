@@ -17,14 +17,37 @@ $red: #ff726f;
 	}
 
 	.leftbox {
-		width: 600px;
+		width: 470px;
 
 		.gamegraphic {
 			width: 472px;
 			height: 664px;
+			transform: translateX(-10px);
 		}
 	}
 
 	.rightbox {
+		p:nth-child(1) {
+			font-size: 22px;
+			font-weight: bold;
+			margin: 10px 0 10px 0;
+			color: $purple;
+		}
+
+		p:nth-child(2) {
+			font-weight: normal;
+			font-size: 48px;
+			margin: 40px 0 40px 0;
+
+			span {
+				color: $purple;
+			}
+		}
+
+		p:nth-child(3) {
+			font-weight: 100;
+			font-size: 28px;
+			margin: 10px 0 10px 0;
+		}
 	}
 }
