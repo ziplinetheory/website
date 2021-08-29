@@ -21,6 +21,13 @@ const Events = () => {
 						tristique ante, ac egestas sem. Praesent euismod vulputate odio, at commodo
 						urna hendrerit ac.
 					</p>
+
+					<div className={style.rightboxbuttons}>
+						<button>January 1st, 2000</button>
+						<button>Lorem Ipsum Dolor</button>
+					</div>
+
+					<button>Sign Up Today</button>
 				</div>
 			</div>
 		</div>
