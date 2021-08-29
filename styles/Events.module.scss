@@ -1,0 +1,24 @@
+$blue: #37d1de;
+$purple: #9035eb;
+$yellow: #ffdd20;
+$green: #58e8a2;
+$red: #ff726f;
+
+.mainbox {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+
+	.topcontent {
+		width: 1200px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 160px;
+	}
+
+	.leftbox {
+	}
+
+	.rightbox {
+	}
+}
