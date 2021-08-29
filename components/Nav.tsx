@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 import style from '../styles/Nav.module.scss'
 
 const Nav = () => {
@@ -5,34 +7,46 @@ const Nav = () => {
 		<div className={style.navbox}>
 			<div className={style.nav}>
 				<div className={style.navlogos}>
-					<a href="/">
-						<img
-							className={style.navlogosmall}
-							src="./short_logo_whitebg.PNG"
-							alt="zipline logo"
-						/>
-					</a>
-					<a href="/">
-						<img
-							className={style.navlogolarge}
-							src="./full_logo_transparentbg.png"
-							alt="zipline logo"
-						/>
-					</a>
+					<Link href="/">
+						<a>
+							<img
+								className={style.navlogosmall}
+								src="./short_logo_whitebg.PNG"
+								alt="zipline logo"
+							/>
+						</a>
+					</Link>
+					<Link href="/">
+						<a>
+							<img
+								className={style.navlogolarge}
+								src="./full_logo_transparentbg.png"
+								alt="zipline logo"
+							/>
+						</a>
+					</Link>
 				</div>
 				<div className={style.navlinks}>
 					<ul>
 						<li>
-							<a href="/" className={style.navlinkactive}>Home</a>
+							<Link href="/">
+								<a className={style.navlinkactive}>Home</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Team</a>
+							<Link href="/team">
+								<a>Team</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Events</a>
+							<Link href="/events">
+								<a href="/">Events</a>
+							</Link>
 						</li>
 						<li>
-							<a href="/">Donate</a>
+							<Link href="/donate">
+								<a href="/">Donate</a>
+							</Link>
 						</li>
 					</ul>
 				</div>
