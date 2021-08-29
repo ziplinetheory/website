@@ -22,7 +22,7 @@ $red: #ff726f;
 		.gamegraphic {
 			width: 472px;
 			height: 664px;
-			transform: translateX(-10px);
+			transform: translateX(-50px);
 		}
 	}
 
@@ -73,7 +73,7 @@ $red: #ff726f;
 		button {
 			width: 244.58px;
 			height: 65px;
-            margin-top: 40px;
+			margin-top: 40px;
 			background: #9035eb;
 			box-shadow: 6px 6px 30px -3px rgba(144, 53, 235, 0.8);
 			border-radius: 25px;
@@ -83,5 +83,13 @@ $red: #ff726f;
 			font-size: 21px;
 			color: white;
 		}
+	}
+}
+
+@media only screen and (max-width: 1400px) {
+	.gamegraphic {
+		width: 472px;
+		height: 664px;
+		transform: translateX(0px) !important;
 	}
 }
