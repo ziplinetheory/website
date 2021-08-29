@@ -10,8 +10,18 @@ const Events = () => {
 						src="./gamegraphic_rounded_top.png"
 						alt="game graphic"
 					/>
-                </div>
-				<div className={style.rightbox}></div>
+				</div>
+				<div className={style.rightbox}>
+					<p>— OCT. 2021</p>
+					<p>
+						Come Experience Zipline Theory’s First Ever <span>Game Design Event</span>
+					</p>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
+						tristique ante, ac egestas sem. Praesent euismod vulputate odio, at commodo
+						urna hendrerit ac.
+					</p>
+				</div>
 			</div>
 		</div>
 	)
