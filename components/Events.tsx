@@ -2,7 +2,11 @@ import style from '../styles/Events.module.scss'
 
 const Events = () => {
 	return (
-		<div id="about" className={style.mainbox}>
+		<div className={style.mainbox}>
+			<div className={style.topcontent}>
+				<div className={style.leftbox}></div>
+				<div className={style.rightbox}></div>
+			</div>
 		</div>
 	)
 }
