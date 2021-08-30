@@ -1,3 +1,7 @@
+import { faCalendarAlt } from '@fortawesome/free-solid-svg-icons'
+import { faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
 import style from '../styles/EventsHero.module.scss'
 
 const EventsHero = () => {
@@ -23,8 +27,14 @@ const EventsHero = () => {
 					</p>
 
 					<div className={style.rightboxbuttons}>
-						<button>January 1st, 2000</button>
-						<button>Lorem Ipsum Dolor</button>
+						<button>
+							<FontAwesomeIcon className={style.calendaricon} icon={faCalendarAlt} />
+							January 1st, 2000
+						</button>
+						<button>
+							<FontAwesomeIcon className={style.mapicon} icon={faMapMarkerAlt} />
+							Lorem Ipsum Dolor
+						</button>
 					</div>
 
 					<button>Sign Up Today</button>
