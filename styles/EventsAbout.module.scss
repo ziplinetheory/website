@@ -11,6 +11,7 @@ $red: #ff726f;
 	h1 {
 		font-weight: 900;
 		font-size: 55px;
+		margin-bottom: 70px;
 		text-decoration: underline;
 		text-decoration-color: $purple;
 		text-decoration-thickness: 3px;
@@ -23,6 +24,8 @@ $red: #ff726f;
 
 	.eventsaboutcontent {
 		width: 1200px;
-		transform: translateY(-863px);
+		position: absolute;
+		right: 200px;
+		top: 1000px;
 	}
 }
