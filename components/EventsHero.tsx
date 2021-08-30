@@ -32,7 +32,7 @@ const EventsHero = () => {
 						</button>
 						<button>
 							<FontAwesomeIcon className={style.mapicon} icon={faMapMarkerAlt} />
-							Lorem Ipsum Dolor
+							Online
 						</button>
 					</div>
 
