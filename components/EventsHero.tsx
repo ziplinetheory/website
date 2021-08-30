@@ -1,4 +1,4 @@
-import style from '../styles/Events.module.scss'
+import style from '../styles/EventsHero.module.scss'
 
 const EventsHero = () => {
 	return (
