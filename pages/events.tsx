@@ -1,11 +1,11 @@
 import Nav from '../components/Nav'
-import Events from '../components/Events'
+import EventsHero from '../components/EventsHero'
 
 const EventsPage = () => {
 	return (
 		<>
 			<Nav />
-			<Events />
+			<EventsHero />
 		</>
 	)
 }

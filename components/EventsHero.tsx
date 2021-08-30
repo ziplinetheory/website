@@ -1,6 +1,6 @@
 import style from '../styles/Events.module.scss'
 
-const Events = () => {
+const EventsHero = () => {
 	return (
 		<div className={style.mainbox}>
 			<div className={style.topcontent}>
@@ -34,4 +34,4 @@ const Events = () => {
 	)
 }
 
-export default Events
+export default EventsHero
