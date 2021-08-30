@@ -6,7 +6,15 @@ $red: #ff726f;
 
 .mainbox {
 	width: 100%;
+	display: flex;
+	justify-content: center;
 	text-align: center;
+
+	.content {
+		width: 1200px;
+		margin: 0;
+		text-align: center;
+	}
 
 	h1 {
 		font-weight: 900;
@@ -20,11 +28,10 @@ $red: #ff726f;
 
 	.eventsaboutbackground {
 		width: 1605.29px;
+		position: absolute;
 	}
 
 	.eventsaboutcontent {
 		width: 1200px;
-		position: absolute;
-		transform: translate(-600px, -870px);
 	}
 }
