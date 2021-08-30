@@ -21,9 +21,8 @@ const EventsHero = () => {
 						Come Experience Zipline Theory’s First Ever <span>Game Design Event</span>
 					</p>
 					<p>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec
-						tristique ante, ac egestas sem. Praesent euismod vulputate odio, at commodo
-						urna hendrerit ac.
+						Learn the basics of Game Design and Development in Zipline Theory's first
+						event! Sign up to gain relevant skills and interact with industry leaders.
 					</p>
 
 					<div className={style.rightboxbuttons}>
