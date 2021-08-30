@@ -3,7 +3,7 @@ import Nav from '../components/Nav'
 const DonatePage = () => {
 	return (
 		<>
-			<Nav />
+			<Nav active="donate" />
 		</>
 	)
 }

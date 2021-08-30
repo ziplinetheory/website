@@ -5,7 +5,7 @@ import EventsAbout from '../components/EventsAbout'
 const EventsPage = () => {
 	return (
 		<>
-			<Nav />
+			<Nav active="events" />
 			<EventsHero />
 			<EventsAbout />
 		</>

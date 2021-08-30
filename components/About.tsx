@@ -9,9 +9,7 @@ const About = () => {
 				alt="about background"
 			/>
 			<div className={style.content}>
-				<h1>
-					About Us
-				</h1>
+				<h1>About Us</h1>
 				<img
 					className={style.aboutgraphic}
 					src="./aboutgraphic.png"
