@@ -37,7 +37,9 @@ const EventsHero = () => {
 						</button>
 					</div>
 
-					<button>Sign Up Today</button>
+					<a href="http://gamedev.ziplinetheory.com/"  target="_blank">
+						<button>Sign Up Today</button>
+					</a>
 				</div>
 			</div>
 		</div>
