@@ -6,8 +6,6 @@ $red: #ff726f;
 
 .mainbox {
 	width: 100%;
-	display: flex;
-	justify-content: center;
 	text-align: center;
 
 	h1 {
@@ -17,5 +15,14 @@ $red: #ff726f;
 		text-decoration-color: $purple;
 		text-decoration-thickness: 3px;
 		text-underline-offset: 20px;
+	}
+
+	.eventsaboutbackground {
+		width: 1605.29px;
+	}
+
+	.eventsaboutcontent {
+		width: 1200px;
+		transform: translateY(-863px);
 	}
 }
