@@ -21,3 +21,11 @@ body {
 button {
 	font-family: 'Lato', sans-serif;
 }
+
+.navlinkactive {
+	text-decoration: underline !important;
+	text-decoration-color: $blue !important;
+	text-decoration-thickness: 3px !important;
+	text-underline-offset: 10px !important;
+	transition: text-underline-offset 400ms !important;
+}

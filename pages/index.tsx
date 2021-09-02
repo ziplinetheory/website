@@ -5,7 +5,7 @@ import About from '../components/About'
 const Home = () => {
 	return (
 		<>
-			<Nav />
+			<Nav active="home" />
 			<Hero />
 			<About />
 		</>

@@ -1,8 +1,10 @@
 import Link from 'next/link'
 
 import style from '../styles/Nav.module.scss'
+import { NavProps } from '../lib/types'
 
-const Nav = () => {
+const Nav = (props: NavProps) => {
+	const { active } = props
 	return (
 		<div className={style.navbox}>
 			<div className={style.nav}>
@@ -30,22 +32,26 @@ const Nav = () => {
 					<ul>
 						<li>
 							<Link href="/">
-								<a className={style.navlinkactive}>Home</a>
+								<a className={active === 'home' ? `navlinkactive` : ''}>Home</a>
 							</Link>
 						</li>
 						<li>
 							<Link href="/team">
-								<a>Team</a>
+								<a className={active === 'team' ? `navlinkactive` : ''}>Team</a>
 							</Link>
 						</li>
 						<li>
 							<Link href="/events">
-								<a href="/">Events</a>
+								<a className={active === 'events' ? `navlinkactive` : ''} href="/">
+									Events
+								</a>
 							</Link>
 						</li>
 						<li>
 							<Link href="/donate">
-								<a href="/">Donate</a>
+								<a className={active === 'donate' ? `navlinkactive` : ''} href="/">
+									Donate
+								</a>
 							</Link>
 						</li>
 					</ul>

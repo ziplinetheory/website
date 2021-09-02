@@ -10,7 +10,8 @@ const Hero = () => {
 			<div className={style.splitboxes}>
 				<div className={style.leftbox}>
 					<h1>
-						<span>Ziplining</span><br/> Towards a<br/> Better Future
+						<span>Ziplining</span>
+						<br /> Towards a<br /> Better Future
 					</h1>
 					<p>
 						We connect students to <span>technology</span>
@@ -21,11 +22,7 @@ const Hero = () => {
 					<button onClick={scrollDown}>Learn More</button>
 				</div>
 				<div className={style.rightbox}>
-					<img
-						className={style.navlogosmall}
-						src="./mountains.gif"
-						alt="mountains"
-					/>
+					<img className={style.navlogosmall} src="./mountains.gif" alt="mountains" />
 				</div>
 			</div>
 		</div>
