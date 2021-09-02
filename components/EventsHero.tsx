@@ -28,7 +28,7 @@ const EventsHero = () => {
 					<div className={style.rightboxbuttons}>
 						<button>
 							<FontAwesomeIcon className={style.calendaricon} icon={faCalendarAlt} />
-							January 1st, 2000
+							October 2021
 						</button>
 						<button>
 							<FontAwesomeIcon className={style.mapicon} icon={faMapMarkerAlt} />
