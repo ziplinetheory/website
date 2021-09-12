@@ -18,7 +18,7 @@ const Hero = () => {
 						<br />
 						and <span>business</span> knowledge.
 					</p>
-					<button>Upcoming Events</button>
+					<a href="/events"><button>Upcoming Events</button></a>
 					<button onClick={scrollDown}>Learn More</button>
 				</div>
 				<div className={style.rightbox}>
