@@ -57,7 +57,9 @@ const Nav = (props: NavProps) => {
 					</ul>
 				</div>
 				<div className={style.navbutton}>
-					<a href="mailto:ziplinetheory@gmail.com"><button>Contact</button></a>
+					<a href="mailto:ziplinetheory@gmail.com">
+						<button>Contact</button>
+					</a>
 				</div>
 			</div>
 		</div>
