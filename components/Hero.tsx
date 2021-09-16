@@ -33,31 +33,31 @@ const Hero = () => {
 				<div className={style.container}>
 					<div className={style.label}>we have been funded by</div>
 					<div className={style.logogrid}>
-						<a href="https://www.defense.gov/" target="_blank">
+						<a href="https://www.defense.gov/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/defense.png" />
 						</a>
-						<a href="https://northropgrumman.com" target="_blank">
+						<a href="https://northropgrumman.com" rel="noreferrer" target="_blank">
 							<img src="./sponsors/northrop.svg" />
 						</a>
-						<a href="https://apple.com" target="_blank">
+						<a href="https://apple.com" rel="noreferrer" target="_blank">
 							<img className={style.fixlogo} src="./sponsors/apple.png" />
 						</a>
-						<a href="https://google.com" target="_blank">
+						<a href="https://google.com" rel="noreferrer" target="_blank">
 							<img src="./sponsors/google.jpg" />
 						</a>
-						<a href="https://walmart.com" target="_blank">
+						<a href="https://walmart.com" rel="noreferrer" target="_blank">
 							<img src="./sponsors/walmart.jpg" />
 						</a>
-						<a href="https://amazon.com" target="_blank">
+						<a href="https://amazon.com" rel="noreferrer" target="_blank">
 							<img src="./sponsors/amazon.png" />
 						</a>
-						<a href="https://www.aspirations.org/" target="_blank">
+						<a href="https://www.aspirations.org/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/asp.png" />
 						</a>
-						<a href="https://www.cognizant.com/" target="_blank">
+						<a href="https://www.cognizant.com/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/cognizant.png" />
 						</a>
-						<a href="https://www.ziplinetheory.com/" target="_blank">
+						<a href="https://www.ziplinetheory.com/" rel="noreferrer" target="_blank">
 							<img className={style.fixlogo} src="./sponsors/televisia.png" />
 						</a>
 					</div>
