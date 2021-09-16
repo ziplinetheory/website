@@ -31,7 +31,7 @@ const Hero = () => {
 			</div>
 			<div className={style.logobanner}>
 				<div className={style.container}>
-					<div className={style.label}>SUPPORTED BY</div>
+					<div className={style.label}>we have been supported by</div>
 					<div className={style.logogrid}>
 						<a href="https://www.defense.gov/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/defense.png" />
