@@ -52,7 +52,7 @@ const Hero = () => {
 							<img src="./sponsors/amazon.png" />
 						</a>
 						<a href="https://www.aspirations.org/" rel="noreferrer" target="_blank">
-							<img src="./sponsors/asp.png" />
+							<img src="./sponsors/ncwit.png" />
 						</a>
 						<a href="https://www.cognizant.com/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/cognizant.png" />
