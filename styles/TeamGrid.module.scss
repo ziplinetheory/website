@@ -1,0 +1,31 @@
+$blue: #37d1de;
+$purple: #9035eb;
+$yellow: #ffdd20;
+$green: #58e8a2;
+$red: #ff726f;
+
+.mainbox {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 160px;
+
+	.content {
+		width: 1200px;
+		// text-align: center;
+	}
+
+	.grid {
+		display: grid;
+		grid-gap: 20px;
+		grid-template-columns: auto auto auto;
+
+		.card {
+			.profilepic {
+				width: 296px;
+				border-radius: 20px;
+			}
+		}
+	}
+}
