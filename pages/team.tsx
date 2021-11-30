@@ -1,11 +1,11 @@
 import Nav from '../components/Nav'
-import ComingSoon from '../components/ComingSoon'
+import TeamGrid from '../components/TeamGrid'
 
 const TeamPage = () => {
 	return (
 		<>
 			<Nav active="team" />
-			<ComingSoon />
+			<TeamGrid />
 		</>
 	)
 }
