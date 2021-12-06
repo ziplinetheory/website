@@ -11,53 +11,95 @@ const TeamGrid = () => {
 				/>
 				<div className={style.grid}>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8584.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8584.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8664.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8664.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8625.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8625.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8692.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8692.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8766.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8766.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8772.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8772.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 					<div className={style.card}>
-						<img
-							className={style.profilepic}
-							src="./teampics/IMG_8710.jpg"
-							alt="team member"
-						/>
+						<div className={style.cardinner}>
+							<div className={style.cardfront}>
+								<img
+									className={style.profilepic}
+									src="./teampics/IMG_8710.jpg"
+									alt="team member"
+								/>
+							</div>
+							<div className={style.cardback}>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
