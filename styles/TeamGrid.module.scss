@@ -65,11 +65,17 @@ $red: #ff726f;
 						margin-top: 40px;
 						margin-bottom: 0;
 						color: $purple;
+						font-weight: bolder;
 					}
 
 					h2 {
-						color: rgb(133, 133, 133);
-    					margin: 10px 25px 25px 25px;
+						color: #A5A5A5;
+    					margin: 5px 25px 25px 25px;
+						font-weight: normal;
+					}
+					
+					p {
+						font-weight: lighter;
 					}
 
 					h1, h2, p {
