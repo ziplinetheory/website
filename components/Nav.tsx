@@ -62,6 +62,9 @@ const Nav = (props: NavProps) => {
 					</a>
 				</div>
 			</div>
+			<div className={style.navMobile}>
+				
+			</div>
 		</div>
 	)
 }
