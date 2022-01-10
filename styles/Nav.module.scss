@@ -136,6 +136,25 @@ $green: #58e8a2;
 	}
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 900px) {
+	.navlogos {
+		display: none;
+	}
 
+	.navbutton {
+		display: none;
+	}
+
+	.nav {
+		transform: translate(0) !important;
+	}
+
+	.navlinks {
+		width: 100% !important;
+
+		a {
+			font-size: 20px;
+			margin: 5px !important;
+		}
+	}
 }
