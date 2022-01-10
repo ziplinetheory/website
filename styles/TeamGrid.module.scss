@@ -100,3 +100,13 @@ $red: #ff726f;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
+
+@media only screen and (max-width: 900px) {
+	.teampic {
+		width: 300px !important;
+	}
+	
+	.grid {
+		grid-template-columns: auto !important;
+	}
+}
