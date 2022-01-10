@@ -78,6 +78,14 @@ $red: #ff726f;
 }
 
 @media only screen and (max-width: 900px) {
+	.aboutbackground {
+		display: none !important;
+	}
+
+	.aboutmessagebackground {
+		display: none !important;
+	}
+
 	.content {
 		h1 {
 			font-size: 30px !important;
@@ -85,10 +93,6 @@ $red: #ff726f;
 
 		.aboutgraphic {
 			width: 300px !important;
-		}
-
-		.aboutmessagebackground {
-			display: none;
 		}
 
 		.theory {
