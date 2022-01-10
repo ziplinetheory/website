@@ -76,3 +76,27 @@ $red: #ff726f;
 		}
 	}
 }
+
+@media only screen and (max-width: 900px) {
+	.content {
+		h1 {
+			font-size: 30px !important;
+		}
+
+		.aboutgraphic {
+			display: none;
+		}
+
+		.aboutmessagebackground {
+			width: 200px;
+		}
+
+		.theory {
+			width: 300px !important;
+
+			p {
+				font-size: 27px !important;
+			}
+		}
+	}
+}
