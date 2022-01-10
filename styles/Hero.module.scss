@@ -4,6 +4,10 @@ $yellow: #ffdd20;
 $green: #c5ff00;
 $red: #ff726f;
 
+.mainboxmobile {
+	display: none;
+}
+
 .mainbox {
 	width: 100%;
 	display: flex;
@@ -119,5 +123,85 @@ $red: #ff726f;
 	}
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 900px) {
+	.mainbox {
+		display: none;
+	}
+
+	.logobanner {
+		display: none;
+	}
+
+	.mainboxmobile {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.contentbox {
+			margin-top: 160px;
+
+			h1 {
+				font-size: 40px;
+				font-weight: normal;
+				margin: 0;
+
+				span {
+					color: $purple;
+				}
+			}
+
+			p {
+				font-size: 15px;
+
+				span {
+					color: $blue;
+					font-weight: bold;
+				}
+			}
+
+			button:nth-child(odd) {
+				width: 100px;
+				height: 30px;
+				font-size: 10px;
+				font-weight: bold;
+				color: white;
+				background: $purple;
+				box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.25);
+				border-radius: 30px;
+				border: none;
+				outline: none;
+				transition: 0.3s;
+			}
+
+			button:nth-child(odd):hover {
+				background: $blue;
+				box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+				transition: 0.3s;
+				cursor: pointer;
+			}
+
+			button:nth-child(even) {
+				width: 100px;
+				height: 30px;
+				font-size: 10px;
+				font-weight: bold;
+				color: $purple;
+				border: 3px solid $purple;
+				box-sizing: border-box;
+				box-shadow: 8px 7px 15px 5px rgba(144, 53, 235, 0.15);
+				border-radius: 30px;
+				outline: none;
+				margin-left: 40px;
+			}
+
+			button:nth-child(even):hover {
+				color: $blue;
+				border: 3px solid $blue;
+				box-shadow: 8px 7px 15px 5px rgba(55, 209, 222, 0.25);
+				transition: 0.3s;
+				cursor: pointer;
+			}
+		}
+	}
 }

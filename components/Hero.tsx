@@ -63,6 +63,23 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
+			<div className={style.mainboxmobile}>
+				<div className={style.contentbox}>
+					<h1>
+						<span>Ziplining</span>
+						<br /> Towards a<br /> Better Future
+					</h1>
+					<p>
+						We connect students to <span>technology</span>
+						<br />
+						and <span>business</span> knowledge.
+					</p>
+					<a href="/events">
+						<button>Upcoming Events</button>
+					</a>
+					<button onClick={scrollDown}>Learn More</button>
+				</div>
+			</div>
 		</>
 	)
 }
