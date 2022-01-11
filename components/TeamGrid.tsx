@@ -21,7 +21,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Ellen Xu</h1>
-								<h2>Position</h2>
+								<h2>Director of Operations</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -40,7 +40,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Raadwan Masum</h1>
-								<h2>Position</h2>
+								<h2>Director of Technology</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -59,7 +59,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Nicole Pi</h1>
-								<h2>Position</h2>
+								<h2>Director of Marketing</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -78,7 +78,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Akshay Rohatgi</h1>
-								<h2>Position</h2>
+								<h2>Director of Curriculum</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -97,7 +97,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Alvin Zheng</h1>
-								<h2>Position</h2>
+								<h2>Director of Technology</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -116,7 +116,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Rohan Juneja</h1>
-								<h2>Position</h2>
+								<h2>Director of Curriculum</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -135,7 +135,7 @@ const TeamGrid = () => {
 							</div>
 							<div className={style.cardback}>
 								<h1>Aadit Gupta</h1>
-								<h2>Position</h2>
+								<h2>Director of Finances</h2>
 								<p>
 									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 									eiusmod tempor incididunt ut labore et dolore magna aliqua.
