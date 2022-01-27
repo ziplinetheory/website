@@ -23,8 +23,12 @@ const TeamGrid = () => {
 								<h1>Ellen Xu</h1>
 								<h2>Director of Strategy</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Ellen is passionate about technological education and running
+									awesome programs at Zipline Theory. Since launching the first
+									event in the summer of 2020, she has led event strategy,
+									speaker and funding acquisition, and aspects of expansion.
+									In her free time, she loves competitive fencing, hosting a podcast,
+									and reading (open to any good book recommendations!) :)
 								</p>
 							</div>
 						</div>
