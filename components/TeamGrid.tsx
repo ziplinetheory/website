@@ -27,8 +27,9 @@ const TeamGrid = () => {
 									awesome programs at Zipline Theory. Since launching the first
 									event in the summer of 2020, she has led event strategy,
 									speaker and funding acquisition, and aspects of expansion.
-									In her free time, she loves competitive fencing, hosting a podcast,
-									and reading (open to any good book recommendations!) :)
+									In her free time, she loves competitive fencing, hosting a
+									podcast, and reading (hit her up with any good book
+									recommendations!) :)
 								</p>
 							</div>
 						</div>
