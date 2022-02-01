@@ -57,7 +57,7 @@ const Nav = (props: NavProps) => {
 					</ul>
 				</div>
 				<div className={style.navbutton}>
-					<a target="_blank" rel="noopener" href="https://discord.gg/PC9ppbApD6">
+					<a target="_blank" rel="noreferrer" href="https://discord.gg/PC9ppbApD6">
 						<button>Join Us</button>
 					</a>
 				</div>
