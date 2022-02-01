@@ -57,8 +57,8 @@ const Nav = (props: NavProps) => {
 					</ul>
 				</div>
 				<div className={style.navbutton}>
-					<a href="mailto:ziplinetheory@gmail.com">
-						<button>Contact</button>
+					<a target="_blank" rel="noopener" href="https://discord.gg/PC9ppbApD6">
+						<button>Join Us</button>
 					</a>
 				</div>
 			</div>
