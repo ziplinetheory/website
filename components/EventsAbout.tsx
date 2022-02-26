@@ -70,6 +70,21 @@ const EventsAbout = () => {
 					on topics of their expertise in 30 minute talks followed by audience Q&As.
 				</p>
 			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ background: '#9035eb', color: '#fff' }}
+				contentArrowStyle={{ borderRight: '7px solid  #9035eb' }}
+				date="2011 - present"
+				iconStyle={{ background: '#9035eb', color: '#fff' }}
+				icon={<FontAwesomeIcon icon={faGamepad} />}
+			>
+				<h3 className="vertical-timeline-element-title">Web Development 101</h3>
+				<p>
+					Students learned the basics of web development using HTML, CSS, and JavaScript
+					in a 4 class series hosted by Zipline Theory instructors. Free domains were
+					provided for students to host the website they created.
+				</p>
+			</VerticalTimelineElement>
 		</VerticalTimeline>
 	)
 }
