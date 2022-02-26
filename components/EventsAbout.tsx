@@ -4,7 +4,14 @@ import {
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCode, faCodeBranch, faGamepad, faLock, faMicrophone, faPen } from '@fortawesome/free-solid-svg-icons'
+import {
+	faCode,
+	faCodeBranch,
+	faGamepad,
+	faLock,
+	faMicrophone,
+	faPen,
+} from '@fortawesome/free-solid-svg-icons'
 
 const EventsAbout = () => {
 	return (
@@ -21,10 +28,10 @@ const EventsAbout = () => {
 					Level Up: An Introduction to Game Development!{' '}
 				</h3>
 				<p>
-					Students learned the basics of Game Design and Development! Lorem ipsum dolor
-					sit amet consectetur adipisicing elit. Nam sit maxime sequi. Sapiente deserunt
-					inventore deleniti at aperiam animi, laudantium natus cum similique delectus
-					corporis vero, illum ut enim? Delectus?
+					Students learned the basics of Game Design and Development in a comprehensive
+					series of workshops. The lessons walked through game genres, the design
+					process, and coding a game. At the end, students participated in a game
+					development competition to win over $200 in prizes.
 				</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
