@@ -1,6 +1,6 @@
 import Nav from '../components/Nav'
 import EventsHero from '../components/EventsHero'
-import EventsAbout from '../components/EventsAbout'
+import EventsAbout from '../components/EventsTimeline'
 
 const EventsPage = () => {
 	return (
