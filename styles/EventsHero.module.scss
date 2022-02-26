@@ -4,6 +4,22 @@ $yellow: #ffdd20;
 $green: #58e8a2;
 $red: #ff726f;
 
+.container {
+	width: 100%;
+
+	h1 {
+		text-align: center;
+		font-size: 48px;
+		margin: 80px 0 40px 0;
+		font-weight: normal;
+		text-decoration: underline;
+		-moz-text-decoration-color: $blue;
+		text-decoration-color: $blue;
+		text-decoration-thickness: 3px;
+		text-underline-offset: 20px;
+	}
+}
+
 .mainbox {
 	width: 100%;
 	display: flex;
