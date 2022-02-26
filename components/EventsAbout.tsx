@@ -104,6 +104,20 @@ const EventsAbout = () => {
 					implementing their idea.
 				</p>
 			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ background: '#0dd3a4', color: '#fff' }}
+				contentArrowStyle={{ borderRight: '7px solid  #0dd3a4' }}
+				iconStyle={{ background: '#0dd3a4', color: '#fff' }}
+				icon={<FontAwesomeIcon icon={faMicrophone} />}
+			>
+				<h3 className="vertical-timeline-element-title">The Basics of Python</h3>
+				<p>
+					Students attended a 4 class series on the basics of Python. From basic
+					printing to functions and libraries, students learned how to turn their ideas
+					to life with Python. It was the first exposure to coding for many of them.
+				</p>
+			</VerticalTimelineElement>
 		</VerticalTimeline>
 	)
 }
