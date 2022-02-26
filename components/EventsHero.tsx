@@ -16,19 +16,21 @@ const EventsHero = () => {
 					/>
 				</div>
 				<div className={style.rightbox}>
-					<p>— OCT. 2021</p>
+					<p>MAR. 25th — APR. 16th</p>
 					<p>
-						Come Experience Zipline Theory’s First Ever <span>Game Design Event</span>
+						<span>Penn Climate Ventures Prize</span> in Collaboration With Penn Climate
+						Ventures!
 					</p>
 					<p>
-						Learn the basics of Game Design and Development in Zipline Theory's first
-						event! Sign up to gain relevant skills and interact with industry leaders.
+						The PCV Prize is an annual competition where students can pitch a climate
+						tech startup for a chance at $5K in non-dilutive funding, as well as
+						mentorship and publicity opportunities.
 					</p>
 
 					<div className={style.rightboxbuttons}>
 						<button>
 							<FontAwesomeIcon className={style.calendaricon} icon={faCalendarAlt} />
-							October 2021
+							March 2022
 						</button>
 						<button>
 							<FontAwesomeIcon className={style.mapicon} icon={faMapMarkerAlt} />
@@ -36,7 +38,7 @@ const EventsHero = () => {
 						</button>
 					</div>
 
-					<a href="http://gamedev.ziplinetheory.com/" target="_blank" rel="noreferrer">
+					<a href="https://airtable.com/shrQq8MF0QxH2ydwf" target="_blank" rel="noreferrer">
 						<button>Sign Up Today</button>
 					</a>
 				</div>
