@@ -27,6 +27,8 @@ const EventsAbout = () => {
 				<h3 className="vertical-timeline-element-title">
 					Level Up: An Introduction to Game Development!{' '}
 				</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">October 2021</h4>
 				<p>
 					Students learned the basics of Game Design and Development in a comprehensive
 					series of workshops. The lessons walked through game genres, the design
@@ -44,6 +46,8 @@ const EventsAbout = () => {
 				<h3 className="vertical-timeline-element-title">
 					The Future of Cyberspace: Information Security & Digital Forensics
 				</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">April 2021</h4>
 				<p>
 					Through a series of 4 interactive workshops, participants learned about online
 					safety and ethics, became familiar with cybersecurity concepts, basic digital
@@ -66,6 +70,8 @@ const EventsAbout = () => {
 				<h3 className="vertical-timeline-element-title">
 					Global Entrepreneurship & Emerging Tech Conference
 				</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">December 2020</h4>
 				<p>
 					Students learned directly from speakers including leaders from Qualcomm,
 					Northrop Grumman, and successful co-founders and CFOs on the newest and up and
@@ -82,6 +88,8 @@ const EventsAbout = () => {
 				icon={<FontAwesomeIcon icon={faCode} />}
 			>
 				<h3 className="vertical-timeline-element-title">Web Development 101</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">October 2020</h4>
 				<p>
 					Students learned the basics of web development using HTML, CSS, and JavaScript
 					in a 4 class series hosted by Zipline Theory instructors. Free domains were
@@ -96,6 +104,8 @@ const EventsAbout = () => {
 				icon={<FontAwesomeIcon icon={faPen} />}
 			>
 				<h3 className="vertical-timeline-element-title">Introduction to Business</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">August 2020</h4>
 				<p>
 					Students took part in a comprehensive business course with topics such as
 					economics, finance, business plans, and business factors. The curriculum was
@@ -115,6 +125,8 @@ const EventsAbout = () => {
 				icon={<FontAwesomeIcon icon={faCodeBranch} />}
 			>
 				<h3 className="vertical-timeline-element-title">The Basics of Python</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">July 2020</h4>
 				<p>
 					Students attended a 4 class series on the basics of Python. From basic
 					printing to functions and libraries, students learned how to turn their ideas
