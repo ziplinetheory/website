@@ -45,19 +45,15 @@ const EventsAbout = () => {
 					The Future of Cyberspace: Information Security & Digital Forensics
 				</h3>
 				<p>
-					This program combined interactive online workshops, speaker events, and
-					modern-day challenges to immerse participants in the basics of information
-					security and digital forensic techniques. Through a series of 3-4 interactive
-					workshops, participants learned about online safety and ethics, became
-					familiar with cybersecurity concepts, basic digital forensic techniques such
-					as steganography techniques and analyzing files, and gained better
-					understanding of how the Internet works. After growing their skills and
-					engaging in the online workshops, participants were able to hear from experts
-					in the field of cybersecurity, including the founder of Iot Village and
-					ex-Microsoft CTO of security. The program concluded with a CTF style
-					competition where students applied the knowledge they gained from workshops
-					and speaker events to solve a multitude of forensics challenges and the
-					winners received cash prizes!
+					Through a series of 4 interactive workshops, participants learned about online
+					safety and ethics, became familiar with cybersecurity concepts, basic digital
+					forensic techniques such as steganography techniques and analyzing files, and
+					gained better understanding of how the Internet works. At the end,
+					participants were able to hear from experts in the field of cybersecurity,
+					including the founder of IoT Village and ex-Microsoft CTO of security. The
+					program concluded with a CTF-style competition where students applied their
+					newfound knowledge to solve a multitude of cybersecurity challenges and win
+					cash prizes!
 				</p>
 			</VerticalTimelineElement>
 			<VerticalTimelineElement
