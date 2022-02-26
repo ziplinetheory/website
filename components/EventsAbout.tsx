@@ -61,7 +61,7 @@ const EventsAbout = () => {
 				icon={<FontAwesomeIcon icon={faMicrophone} />}
 			>
 				<h3 className="vertical-timeline-element-title">
-					Global Entrepreneurship & Emerging Tech conference
+					Global Entrepreneurship & Emerging Tech Conference
 				</h3>
 				<p>
 					Students learned directly from speakers including leaders from Qualcomm,
