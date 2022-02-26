@@ -85,6 +85,25 @@ const EventsAbout = () => {
 					provided for students to host the website they created.
 				</p>
 			</VerticalTimelineElement>
+			<VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ background: '#00b9cb', color: '#fff' }}
+				contentArrowStyle={{ borderRight: '7px solid  #00b9cb' }}
+				iconStyle={{ background: '#00b9cb', color: '#fff' }}
+				icon={<FontAwesomeIcon icon={faLock} />}
+			>
+				<h3 className="vertical-timeline-element-title">Introduction to Business</h3>
+				<p>
+					Students took part in a comprehensive business course with topics such as
+					economics, finance, business plans, and business factors. The curriculum was
+					designed by our experienced instructors such as DECA state finalists and
+					social entrepreneurs to create content-filled classes with lecture and
+					activity portions. Students created their own business plans and worked to
+					design a business idea of their own interest, and have the opportunity to use
+					the coding/web development skills they learned in our previous workshops in
+					implementing their idea.
+				</p>
+			</VerticalTimelineElement>
 		</VerticalTimeline>
 	)
 }
