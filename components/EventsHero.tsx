@@ -11,8 +11,8 @@ const EventsHero = () => {
 				<div className={style.leftbox}>
 					<img
 						className={style.gamegraphic}
-						src="./gamegraphic_rounded_top.png"
-						alt="game graphic"
+						src="./pcv_graphic.png"
+						alt="pcv graphic"
 					/>
 				</div>
 				<div className={style.rightbox}>
