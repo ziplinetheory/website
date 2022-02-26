@@ -4,7 +4,7 @@ import {
 } from 'react-vertical-timeline-component'
 import 'react-vertical-timeline-component/style.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGamepad, faLock, faMicrophone } from '@fortawesome/free-solid-svg-icons'
+import { faCode, faCodeBranch, faGamepad, faLock, faMicrophone, faPen } from '@fortawesome/free-solid-svg-icons'
 
 const EventsAbout = () => {
 	return (
@@ -76,7 +76,7 @@ const EventsAbout = () => {
 				contentArrowStyle={{ borderRight: '7px solid  #9035eb' }}
 				date="2011 - present"
 				iconStyle={{ background: '#9035eb', color: '#fff' }}
-				icon={<FontAwesomeIcon icon={faGamepad} />}
+				icon={<FontAwesomeIcon icon={faCode} />}
 			>
 				<h3 className="vertical-timeline-element-title">Web Development 101</h3>
 				<p>
@@ -90,7 +90,7 @@ const EventsAbout = () => {
 				contentStyle={{ background: '#00b9cb', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  #00b9cb' }}
 				iconStyle={{ background: '#00b9cb', color: '#fff' }}
-				icon={<FontAwesomeIcon icon={faLock} />}
+				icon={<FontAwesomeIcon icon={faPen} />}
 			>
 				<h3 className="vertical-timeline-element-title">Introduction to Business</h3>
 				<p>
@@ -109,7 +109,7 @@ const EventsAbout = () => {
 				contentStyle={{ background: '#0dd3a4', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  #0dd3a4' }}
 				iconStyle={{ background: '#0dd3a4', color: '#fff' }}
-				icon={<FontAwesomeIcon icon={faMicrophone} />}
+				icon={<FontAwesomeIcon icon={faCodeBranch} />}
 			>
 				<h3 className="vertical-timeline-element-title">The Basics of Python</h3>
 				<p>
