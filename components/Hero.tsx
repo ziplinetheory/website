@@ -15,9 +15,8 @@ const Hero = () => {
 							<br /> Towards a<br /> Better Future
 						</h1>
 						<p>
-							We connect students to <span>technology</span>
-							<br />
-							and <span>business</span> knowledge.
+							We empower a global community of learners
+							<br />to <span>explore<span> and <span>innovate<span> beyond the conventional curriculum.
 						</p>
 						<a href="/events">
 							<button>Upcoming Events</button>
