@@ -16,7 +16,7 @@ const Hero = () => {
 						</h1>
 						<p>
 							We empower a global community of learners
-							<br />to <span>explore<span> and <span>innovate<span> beyond the conventional curriculum.
+							<br />to <span>explore</span> and <span>innovate</span> beyond the conventional curriculum.
 						</p>
 						<a href="/events">
 							<button>Upcoming Events</button>
