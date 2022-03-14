@@ -23,13 +23,13 @@ const TeamGrid = () => {
 								<h1>Ellen Xu</h1>
 								<h2>Director of Strategy</h2>
 								<p>
-									Ellen is passionate about educational access and running
-									awesome programs at Zipline Theory. Since founding and launching the first
-									event in the summer of 2020, she has led event strategy,
-									growth, and obtained support/funding from organizations such as the DoD and NCWiT.
-									In her free time, she loves competitive fencing, hosting a
-									podcast, and writing/reading (hit her up with any good book
-									recommendations!) :)
+									Ellen is passionate about educational access and running awesome
+									programs at Zipline Theory. Since founding and launching the first
+									event in the summer of 2020, she has led event strategy, growth, and
+									obtained support/funding from organizations such as the DoD and NCWiT.
+									In her free time, she loves competitive fencing, hosting a podcast,
+									and writing/reading (hit her up with any good book recommendations!)
+									:)
 								</p>
 							</div>
 						</div>
@@ -47,8 +47,12 @@ const TeamGrid = () => {
 								<h1>Raadwan Masum</h1>
 								<h2>Director of Technology</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Raadwan loves discovering more about the world using technology. More
+									than that, he loves teaching others how to discover more about the
+									world and themselves using technology. Seeing students come into
+									events knowing nothing about a topic and leaving with the ability to
+									create new, amazing things is what Raadwan loves most about Zipline
+									Theory.
 								</p>
 							</div>
 						</div>
