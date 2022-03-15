@@ -127,8 +127,10 @@ const TeamGrid = () => {
 								<h1>Rohan Juneja</h1>
 								<h2>Director of Curriculum</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									As a founding member of Zipline Theory, Rohan is passionate about developing a curriculum that 
+									engages and empowers the global community. Having worked with dynamic teams to deliver high 
+									impact projects, Rohan brings unique insights to help create a rich curriculum that excites and 
+									motivates the next generation of learners.
 								</p>
 							</div>
 						</div>
