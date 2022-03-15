@@ -108,8 +108,9 @@ const TeamGrid = () => {
 								<h1>Alvin Zheng</h1>
 								<h2>Director of Technology</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Alvin is passionate about programming, and the good it can bring the world. Moreover, he loves 
+									to share this passion for code with others to help better the world through technology. As part 
+									of Zipline Theory, Alvin hopes to bring Computer Science curriculum to around the world.
 								</p>
 							</div>
 						</div>
