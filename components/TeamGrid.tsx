@@ -89,8 +89,10 @@ const TeamGrid = () => {
 								<h1>Akshay Rohatgi</h1>
 								<h2>Director of Curriculum</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Akshay is passionate about his love for computer science and cybersecurity. He believes that
+									his passions are the future of society for a long time to come and wishes to share his knoweledge
+									and experience with others. He often shares his own experiences and advice with others and
+									hopes to provide thousands of other students with similar experiences and opportunities through Zipline Theory 
 								</p>
 							</div>
 						</div>
