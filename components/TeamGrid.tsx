@@ -151,8 +151,9 @@ const TeamGrid = () => {
 								<h1>Aadit Gupta</h1>
 								<h2>Director of Finances</h2>
 								<p>
-									Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-									eiusmod tempor incididunt ut labore et dolore magna aliqua.
+									Aadit is passionate about entrepreneurship and software development ideas that can help impact many students in our community. Moreover, he loves 
+									to help and inspire the next generation of coders and leaders of our society. As part 
+									of Zipline Theory, Aadit hopes to pass on the numerous amount of skills he has learned.
 								</p>
 							</div>
 						</div>
