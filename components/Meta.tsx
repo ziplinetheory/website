@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Script from 'next/script'
 
 const Meta = () => {
 	return (
@@ -82,13 +83,13 @@ const Meta = () => {
 			<meta name="viewport" content="width=device-width,initial-scale=1" />
 			<meta name="theme-color" content="#9035eb" />
 			<link rel="canonical" href="https://ziplinetheory.com" />
-			<script
+			<Script
 				async
 				defer
 				data-website-id="9f75405d-6feb-4575-8134-8e1e2e4f4368"
 				data-domains="ziplinetheory.com"
 				src="https://analytics.aadit.dev/umami.js"
-			></script>
+			></Script>
 		</Head>
 	)
 }
