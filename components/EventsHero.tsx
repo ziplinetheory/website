@@ -44,7 +44,7 @@ const EventsHero = () => {
 							target="_blank"
 							rel="noreferrer"
 						>
-							<button>Sign Up Today</button>
+							<button disabled>Sign Up Closed</button>
 						</a>
 					</div>
 				</div>
