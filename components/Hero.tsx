@@ -35,6 +35,9 @@ const Hero = () => {
 						<a href="https://www.defense.gov/" rel="noreferrer" target="_blank">
 							<img src="./sponsors/defense.png" />
 						</a>
+						<a href="https://www.upenn.edu/" rel="noreferrer" target="_blank">
+							<img src="./sponsors/upenn.png" />
+						</a>
 						<a href="https://northropgrumman.com" rel="noreferrer" target="_blank">
 							<img src="./sponsors/northrop.svg" />
 						</a>
