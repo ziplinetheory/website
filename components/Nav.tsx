@@ -13,7 +13,7 @@ const Nav = (props: NavProps) => {
 						<a>
 							<img
 								className={style.navlogosmall}
-								src="./short_logo_whitebg.PNG"
+								src="./zt_small_pride_light.png"
 								alt="zipline logo"
 							/>
 						</a>
@@ -22,7 +22,7 @@ const Nav = (props: NavProps) => {
 						<a>
 							<img
 								className={style.navlogolarge}
-								src="./full_logo_transparentbg.png"
+								src="./zt_full_pride_light.png"
 								alt="zipline logo"
 							/>
 						</a>
@@ -63,7 +63,7 @@ const Nav = (props: NavProps) => {
 				</div>
 			</div>
 			<div className={style.navMobile}>
-				
+
 			</div>
 		</div>
 	)
