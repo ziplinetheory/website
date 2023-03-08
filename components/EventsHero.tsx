@@ -12,26 +12,23 @@ const EventsHero = () => {
 					<div className={style.leftbox}>
 						<img
 							className={style.gamegraphic}
-							src="./pcv_graphic.png"
-							alt="pcv graphic"
+							src="./bioinfo_graphic.jpg"
+							alt="bioinformatics graphic"
 						/>
 					</div>
 					<div className={style.rightbox}>
-						<p>MAR. 25th — APR. 16th</p>
+						<p>APR. 8th</p>
 						<p>
-							<span>Penn Climate Ventures Prize</span> in Collaboration With Penn
-							Climate Ventures!
+							<span>Bioinformatics Webinar</span> for Middle and High School students
 						</p>
 						<p>
-							The PCV Prize is an annual competition where students can pitch a climate
-							tech startup for a chance at $5K in non-dilutive funding, as well as
-							mentorship and publicity opportunities.
+            Learn about the rapidly growing and in demand field of bioinformatics that sits at the intersection of Biology, Math and Computer Science with guest speaker Dr. Su, a professor from Scripps Reserach
 						</p>
 
 						<div className={style.rightboxbuttons}>
 							<button>
 								<FontAwesomeIcon className={style.calendaricon} icon={faCalendarAlt} />
-								March 2022
+								April 8th 2-3 PM (PDT)
 							</button>
 							<button>
 								<FontAwesomeIcon className={style.mapicon} icon={faMapMarkerAlt} />
@@ -40,11 +37,11 @@ const EventsHero = () => {
 						</div>
 
 						<a
-							href="https://airtable.com/shrQq8MF0QxH2ydwf"
+							href="https://tinyurl.com/bioinfowebinar"
 							target="_blank"
 							rel="noreferrer"
 						>
-							<button disabled>Sign Up Closed</button>
+							<button>Sign Up</button>
 						</a>
 					</div>
 				</div>
