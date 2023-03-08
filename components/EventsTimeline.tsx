@@ -11,12 +11,32 @@ import {
 	faLock,
 	faMicrophone,
 	faPen,
+  faGlobe
 } from '@fortawesome/free-solid-svg-icons'
 
 const EventsAbout = () => {
 	return (
 		<VerticalTimeline>
-			<VerticalTimelineElement
+      <VerticalTimelineElement
+				className="vertical-timeline-element--work"
+				contentStyle={{ background: '#0dd3a4', color: '#fff' }}
+				contentArrowStyle={{ borderRight: '7px solid  #0dd3a4' }}
+				iconStyle={{ background: '#0dd3a4', color: '#fff' }}
+				icon={<FontAwesomeIcon icon={faGlobe} />}
+			>
+				<h3 className="vertical-timeline-element-title">
+        <span>Penn Climate Ventures Prize</span> in Collaboration With Penn
+							Climate Ventures!
+				</h3>
+				<br />
+				<h4 className="vertical-timeline-element-subtitle">March 2022</h4>
+				<p>
+          The PCV Prize was an competition where students pitched a climate
+					tech startup for a chance at $5K in non-dilutive funding, as well as
+					mentorship and publicity opportunities.
+				</p>
+			</VerticalTimelineElement>
+      <VerticalTimelineElement
 				className="vertical-timeline-element--work"
 				contentStyle={{ background: '#9035eb', color: '#fff' }}
 				contentArrowStyle={{ borderRight: '7px solid  #9035eb' }}
