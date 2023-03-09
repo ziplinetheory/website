@@ -22,7 +22,7 @@ const EventsHero = () => {
 							<span>Bioinformatics Webinar</span> for Middle and High School students
 						</p>
 						<p>
-            Learn about the rapidly growing and in demand field of bioinformatics that sits at the intersection of Biology, Math and Computer Science with guest speaker Dr. Su, a professor from Scripps Reserach
+            Learn about the rapidly growing and in demand field of bioinformatics that sits at the intersection of Biology, Math and Computer Science with guest speaker Dr. Andrew Su, Director of Bioinformatics at The Scripps Research Institute.
 						</p>
 
 						<div className={style.rightboxbuttons}>
