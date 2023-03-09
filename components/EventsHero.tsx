@@ -12,7 +12,7 @@ const EventsHero = () => {
 					<div className={style.leftbox}>
 						<img
 							className={style.gamegraphic}
-							src="./bioinfo_graphic.jpg"
+							src="./bio_graphic.png"
 							alt="bioinformatics graphic"
 						/>
 					</div>
